@@ -1,6 +1,7 @@
 name: tweet_env
 channels:
   - defaults
+dependencies:
 
   - pip:
     - beautifulsoup4==4.10.0

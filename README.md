@@ -14,18 +14,25 @@ In order to run the analysis notebook follow the instructions below:
 Instructions:
 1. Clone the rep
 2. Create the python env needed to run the program by running the following 
-   - conda env create --file tweet_env.yml
+   - conda env create --file tweet_env.yml python=3.7
 3. Activate the env
    - conda activate tweet_env 
 4. Navigate to the bsi_sentiment folder to install this custom package
    - cd dependencies/bsi-sentiment/ 
-5. Install the custom version of bsi_sentiment
+5. Pip install a few other packages:
+   - pip install pandas
+   - pip install selenium
+   - pip install webdriver_manager
+   - pip install sklearn
+   - pip install matplotlib
+   - pip install jupyter notebook
+7. Install the custom version of bsi_sentiment
    - python setup.py install 
-6. Navigate back to the root folder
+8. Navigate back to the root folder
    - Cd ../.. 
-7. Add New Env to Jupyter Notebook Kernal
+9. Add New Env to Jupyter Notebook Kernal
    - python -m ipykernel install --user --name=tweet_env 
-8. Open the Jupyter Notebook 
+10. Open the Jupyter Notebook 
    - jupyter notebook
 11. Navigate to project/tweet_analysis_example.ipynb
 12. Open notebook 

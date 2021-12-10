@@ -5,7 +5,7 @@ Please fork this repository and paste the github link of your fork on Microsoft 
 
 
 Instructions to run the example notebook.
-1. Clone the repo \
+1. Clone the repo\
 2. Create the python env needed to run the program by running the following \
    - conda env create --file tweet_env.yml\
 3. Activate the env

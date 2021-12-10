@@ -1,13 +1,14 @@
 import pandas as pd
 from feature_utils import feature_utilities
+import pytz 
 
 class feature_extraction:
     def __init__(self):
         self.status = 'on'
 
     def build_feature_set(df):
-        start_time = pd.to_datetime(df['created_at'].astype(str)) 
-        end_time = pd.to_datetime(df['clean_datetime_of_match_utc'].astype(str))
+        start_time = pd.to_datetime(df.created_at.tz_localize(pytz.utc).astype(str)) 
+        end_time = pd.to_datetime(df.clean_datetime_of_match_utc.tz_localize(pytz.utc).astype(str))
         df['tweet_mins_before_match'] = end_time.sub(start_time).dt.total_seconds().div(60)
         df['lower_text'] = df['text'].str.lower()
         df['contains_will_win'] = df.text.str.contains('will win')

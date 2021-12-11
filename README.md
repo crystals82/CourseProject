@@ -73,3 +73,4 @@ Prasanna Kumar:
 6. Final project documentation and presentation
 
 Surabhi Choudhary:
+Part of initial app design and task determination. Data collection via Tweepy and then research on sentiment analysis using TextBlob. Later identified limitations of using Tweepy/Twitter API which would have severely limited the dataset for this project. Researched on ways to work around the issue. Discovered the worldcup tweets dataset on Kaggle which was nightly updated and had all tweets we needed.Pulled that in python and cleaned it up to ready it for keyword filtering. Researched on the data itself to help build the classifier however due to time constraints I could not assist with the classifier itself. Assisted in development of test/training set of the classifier.

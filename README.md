@@ -1,15 +1,19 @@
 # CourseProject
 
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
+## T20 Cricket World Cup Tweet Analysis Project
+
 
 Watch our presentation and demo of this project here: 
 
-T20 Cricket World Cup Tweet Analysis Project
-In this project, we set out to mine a large number of tweets and answer the high level question of are the predictions that are made on twitter about a sporting even accurate and is their a coorelation with who wins?
 
+#### Overview of the project goal
+In this project, we set out to mine a large number of tweets and answer the high level question of is there a coorelation between the polarity/confidence of what the prediction made in the tweet and the accuracy of the predicted outcomes. For example, if there is a tweet that says "I think Pakistan is going to dominate India today" we want to verify if this prediction is right and then check to see if there is a coolerlation between the success of the prediction and the polarity of the language used in the prediction.
+
+#### What you can use this code for
 We have built a notebook that you can walk through to see what we did for our analysis and be able to test out some of the code on your own.
-
 This notebook can be used as a starting point and altered to do further analysis to answer other questions.
+
+#### Documentation of the usage of the software 
 
 In order to run the analysis notebook follow the instructions below:
 

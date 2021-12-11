@@ -52,17 +52,17 @@ Instructions:
 
 Adam Ruther:
 
-Discovered how to pull historical tweets without using Tweepy
-Wrote the code to pull the tweets
-Wrote the code to build the schedule scraper
-Wrote the code to filter the tweets down to only tweets that pertained to the matches 
-Coded the Feature logic to extract features for the Logistic Regression Classification Model
-Trained the model using the test data
-Used the model for the predictions
-created the plots
-modularized the code
-created final documentation
-created final jupyter notebook
+1. Discovered how to pull historical tweets without using Tweepy
+2. Wrote the code to pull the tweets
+3. Wrote the code to build the schedule scraper
+4. Wrote the code to filter the tweets down to only tweets that pertained to the matches 
+5. Coded the Feature logic to extract features for the Logistic Regression Classification Model
+6. Trained the model using the test data
+7. Used the model for the predictions
+8. created the plots
+9. modularized the code
+10. created final documentation
+11. created final jupyter notebook
 
 Prasanna Kumar:
 1. Coordinated the tweepy API access for initial proof of concepts

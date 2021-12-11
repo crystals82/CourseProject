@@ -44,3 +44,14 @@ Instructions:
 12. Open the analysis notebook by clicking on the file of 'tweet_analysis_example.ipynb'
 13. Change kernel to tweet_env within the jupyter notebook
 14. Follow the instructions on notebook 
+
+
+
+
+#### Team Member Contribution
+
+Adam Ruther:
+
+Prasanna Kumar:
+
+Surabhi Choudhary:

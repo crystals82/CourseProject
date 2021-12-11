@@ -65,5 +65,11 @@ created final documentation
 created final jupyter notebook
 
 Prasanna Kumar:
+1. Coordinated the tweepy API access for initial proof of concepts
+2. Coordinated Project progrss report & overview to list down different tasks involved in the application design & build
+3. Built & tested code for sentiment analysis using text blob and retrieved subjectivity, polarity scores for various tweets
+4. Data collection for prediction terms (BoW), Sentiment analysis
+5. Extensive testing of the application for training the model and recording the prediction outcomes
+6. Final project documentation and presentation
 
 Surabhi Choudhary:
